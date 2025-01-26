@@ -15,3 +15,10 @@ for (let i = 0; i < numeros.length; i++) {
     console.log(numeros[i]);
   }
 }
+
+let nomes = ["Ana", "Carlos", "Amanda", "Bruno", "Alice", "João"];
+
+for (let nome of nomes) {
+  // Esse é um método para verifca a string começa com a letra A
+  if (nome.startsWith("A")) console.log(nome);
+}
