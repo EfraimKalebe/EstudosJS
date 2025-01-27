@@ -20,5 +20,5 @@ let nomes = ["Ana", "Carlos", "Amanda", "Bruno", "Alice", "João"];
 
 for (let nome of nomes) {
   // Esse é um método para verifca a string começa com a letra A
-  if (nome.startsWith("A")) console.log(nome);
+  if (nome.startsWith("C")) console.log(nome);
 }
